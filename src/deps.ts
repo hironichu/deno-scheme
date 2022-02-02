@@ -1,4 +1,4 @@
-import {Registry} from '../../winreg-deno/mod.ts'
+import {Registry} from 'https://deno.land/x/winreg_deno@1.0/mod.ts'
 import os from "https://deno.land/x/dos@v0.11.0/mod.ts";
 import * as path from "https://deno.land/std@0.118.0/path/mod.ts";
 import { isWsl } from "https://raw.githubusercontent.com/denorg/is-wsl/master/mod.ts";
